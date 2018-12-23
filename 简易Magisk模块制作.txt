@@ -1,0 +1,92 @@
+
+
+Magisk框架的左右简单来说就是文件替换过增减
+
+比如要替换体统某文件，把你需要的文件搞成个模块
+
+然后Magisk框架挂着让它生效
+
+实际上并没有改动系统但达成了一样效果
+还能方便开关
+比直接修改系统更安全方便
+
+
+模块制作简单过程
+这里以替换hosts文件为例
+
+1：准备工作
+①去Magisk作者的github页下载个模块模板
+https://github.com/topjohnwu/magisk-module-template
+小白推荐汉化模板
+https://github.com/Magisk-Modules-Repo-CN/magisk-module-template
+下载方式：clone or download，download zip
+
+②一个文件管理器
+要求：可以压缩/解压，可以编辑文本
+很低要求了。比如常见的root explorer。
+比如MT管理器
+我用的是mixplorer
+
+③准备好你要替换的文件
+这里以一个hosts文件为例好了
+（网上找的一个去广告hosts）
+
+④查清楚你要换的这个在系统的哪里
+比如hosts文件的所在目录随便查查就知道
+/system/etc/hosts
+
+
+2：实际操作
+①解压缩模板
+创建文件夹
+/system/etc，然后把hosts文件复制到etc里。
+具体些（对小白）：
+由于模板有system这个文件夹
+那就在里面创建一个文件夹etc
+再把hosts文件复制到etc里面
+
+②重要：修改命令
+很简单
+点击模板内config.sh
+以文本编辑（把它当做txt）
+按里面文本提示，在对应位置加一行
+/system/etc
+（表示把文件替换到这里）
+保存退出。
+
+③接下来，很随意
+命名等等
+修改一下module.prop
+（同样当做txt编辑）
+对应项目如下
+id=ccc 只能是字母数字其他自由
+name=模块模板 命名。自由。
+version=v1  版本号。
+versionCode=1  随便填。
+author=topjohnwu  作者名字。
+description=一个简短的描述  自由
+minMagisk=17000  模板版本号，只是检测一下，不动
+
+
+④最后，把文件夹重命名一下压缩好
+（直接压缩不要多了一重文件夹。意思是点开压缩包就能看到文件列表，而不是打开后还有一层文件夹。）
+
+模板诞生。
+
+
+可以用了。
+
+对没错就这么简单。
+
+额外：
+文件管理器比较逗比压缩时自动多了一层文件夹？
+比如mixplorer就会。MT2.0也会。
+没事。
+咱不压缩文件夹。
+全选模块所需文件压缩就搞定。
+
+3：稍微进阶
+想替换多个文件？
+把要换的依样画葫芦一一塞进去
+然后去config.sh按照模板样式一行行添加对应目录
+就行了。
