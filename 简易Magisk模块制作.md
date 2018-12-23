@@ -24,14 +24,17 @@ Magisk框架的左右简单来说就是文件替换过增减
   下载方式：Clone or download - Download Zip
   
 * 准备一个可用Magisk模块
+
   随便一个就行。比如冰箱的权限模块。
 
 * [MT管理器2.0](https://www.coolapk.com/apk/bin.mt.plus)装一个。不用会员的。
 
 * 准备好你要替换的文件
-  比如修改版APP，这里是以一个hosts文件为例
+
+  比如修改版APP，这里是以一个网上找的去广告hosts文件为例
  
 * 确认你要替换的文件在系统中的目录
+
    比如hosts文件在/system/etc目录下
    
 ### 操作
