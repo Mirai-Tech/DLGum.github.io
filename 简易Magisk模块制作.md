@@ -19,7 +19,7 @@ Magisk框架的左右简单来说就是文件替换过增减
 
   [Magisk作者的原始模板](https://github.com/topjohnwu/magisk-module-template)
   
-  [汉化的模板](https://github.com/Magisk-Modules-Repo-CN/magisk-module-template) 新人推荐
+  [汉化的模板](https://github.com/Magisk-Modules-Repo-CN/magisk-module-template) 新人推荐使用
   
   下载方式：Clone or download - Download Zip
   
