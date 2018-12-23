@@ -1,0 +1,24 @@
+{
+  "package": "tv.danmaku.bili",
+  "recommended": true,
+  "verified": false,
+  "description": {
+    "overwrite_default": true,
+    "zh_CN": "<b>开启后请谨慎清理应用数据，否则可能会造成聊天图片丢失！</b><br><br>哔哩哔哩推荐开启重定向。",
+  },
+  "simple_mounts": [
+    {
+      "id": "VirtualXposed",
+      "source_package": "io.va.exposed",
+      "target_package": "tv.danmaku.bili",
+      "paths": [
+        "VirtualXposed"
+      ]
+    },
+  ],
+  "simple_mounts_descriptions": {
+    "VirtualXposed": {
+      "zh_CN": "修复 <b>VirtualXposed</b> 多开的哔哩哔哩不能共用储存",
+    },
+  }
+}
