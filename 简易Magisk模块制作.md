@@ -65,7 +65,7 @@ Magisk框架的左右简单来说就是文件替换过增减
     
     >> 注意不能只写/system/etc。它代表把目录下文件替换为hosts
     
-       假设你想更换一个app，安装目录下只有一个apk文件，那么只写安装目录就行
+       假设你想更换一个app，安装目录下只有一个对应的apk文件，那么只写安装目录就行
        
        但是/system/etc文件夹中有很多文件。你如果这么写会无法开机。别问我怎么知道的。
   
@@ -91,8 +91,8 @@ Magisk框架的左右简单来说就是文件替换过增减
    然后去config.sh按照模板样式一行行添加对应目录
    就行了。
 
-### 尝试是否可用之前装个MM管理器防止翻车
-### 尝试是否可用之前装个MM管理器防止翻车
-### 尝试是否可用之前装个MM管理器防止翻车
+### 尝试是否可用之前装个[MM管理器](https://github.com/Magisk-Modules-Repo/mm)防止翻车
+### 尝试是否可用之前装个[MM管理器](https://github.com/Magisk-Modules-Repo/mm)防止翻车
+### 尝试是否可用之前装个[MM管理器](https://github.com/Magisk-Modules-Repo/mm)防止翻车
 
 ## 完毕
