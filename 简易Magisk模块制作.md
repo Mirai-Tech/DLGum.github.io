@@ -95,4 +95,7 @@ Magisk框架的左右简单来说就是文件替换过增减
 ### 尝试是否可用之前装个[MM管理器](https://github.com/Magisk-Modules-Repo/mm)防止翻车
 ### 尝试是否可用之前装个[MM管理器](https://github.com/Magisk-Modules-Repo/mm)防止翻车
 
+mm管理器让你可以在rec开关模块。开不了机就可以救场。
+需要汉化版直接百度：mm 管理器 汉化
+
 ## 完毕
