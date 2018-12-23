@@ -87,16 +87,19 @@ Magisk框架的左右简单来说就是文件替换过增减
 
 ### 稍微进阶
    想替换多个文件？
-   把要换的依样画葫芦一一塞进去
-   然后去config.sh按照模板样式一行行添加对应目录
+   把要换的文件依样画葫芦一一塞进去
+   然后去config.sh按照模板样式一行行添加对应路径
    就行了。
 
+
 ### 尝试是否可用之前装个[MM管理器](https://github.com/Magisk-Modules-Repo/mm)防止翻车
 ### 尝试是否可用之前装个[MM管理器](https://github.com/Magisk-Modules-Repo/mm)防止翻车
 ### 尝试是否可用之前装个[MM管理器](https://github.com/Magisk-Modules-Repo/mm)防止翻车
 
-#### mm管理器让你可以在rec开关模块。
-#### 开不了机就可以救场。
+mm管理器让你可以在rec开关模块。
+
+开不了机就可以救场。
+
 需要汉化版直接百度：mm 管理器 汉化
 
 ## 完毕
